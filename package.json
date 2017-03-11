@@ -1,0 +1,23 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "Color Picker project built in React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan-and-Dan/Color-picker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan-and-Dan/Color-picker/issues"
+  },
+  "homepage": "https://github.com/Dan-and-Dan/Color-picker#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.2.1"
+  }
+}
