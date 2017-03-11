@@ -1,9 +1,9 @@
-var Child = require('./child.jsx');
+var Child = require('./child');
 
 var Parent = React.createClass({ 
     
     getInitialState: function() { 
-        return {color: white}
+        return {color: 'white'};
     },
     
     changeColor: function(newColor) { 

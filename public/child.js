@@ -4,6 +4,7 @@ var Child = React.createClass({
         this.props.onChange(color);
     },
     render: function(){
+        return (
         <div>
             <select onChange={this.handleChange}>
                 <option value="orange">Orange</option>
@@ -28,7 +29,7 @@ var Child = React.createClass({
                 <option value="bisque">Bisque</option>
             </select>
         </div>
-    }
+    )}
 })
 
 module.exports = Child;
