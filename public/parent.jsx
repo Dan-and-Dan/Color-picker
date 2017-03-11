@@ -1,6 +1,4 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var Child = require('./child')
+var Child = require('./child.jsx');
 
 var Parent = React.createClass({ 
     

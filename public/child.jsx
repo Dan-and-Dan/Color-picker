@@ -1,6 +1,3 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-
 var Child = React.createClass({
     handleChange: function(event){
         var color = event.target.value;
