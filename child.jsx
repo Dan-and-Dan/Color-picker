@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Child = React.createClass({
+var child = React.createClass({
     handleChange: function(event){
         var color = event.target.value;
         this.props.onChange(color);
@@ -34,4 +34,4 @@ var Child = React.createClass({
     }
 })
 
-module.exports = Child;
+module.exports = child;
