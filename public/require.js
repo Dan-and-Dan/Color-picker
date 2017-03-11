@@ -138,9 +138,23 @@ var Parent = React.createClass({
     },
 
     render: function () {
-        return React.createElement(Child, {
-            onChange: this.changeColor,
-            color: this.state.color });
+        return React.createElement(
+            'div',
+            { style: { backgroundColor: this.state.color, height: '400', width: '400' }, className: 'picker' },
+            React.createElement(
+                'div',
+                { className: 'container' },
+                React.createElement(
+                    'h1',
+                    null,
+                    'The current color is: ',
+                    this.state.color
+                ),
+                React.createElement(Child, {
+                    onChange: this.changeColor,
+                    color: this.state.color })
+            )
+        );
     }
 });
 

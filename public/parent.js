@@ -14,9 +14,14 @@ var Parent = React.createClass({
     
     render: function() { 
         return (
-            <Child 
-                onChange={this.changeColor}
-                color={this.state.color} />
+            <div style={{backgroundColor:this.state.color, height:'400', width:'400'}} className="picker">
+                <div className="container">
+                <h1>The current color is: {this.state.color}</h1>
+                <Child
+                    onChange={this.changeColor}
+                    color={this.state.color} />
+                </div>
+            </div>
         )
     }
 })
