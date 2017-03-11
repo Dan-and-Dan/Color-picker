@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Child = require('./child.js')
+var Child = require('./child')
 
 var Parent = React.createClass({ 
     
@@ -17,7 +17,7 @@ var Parent = React.createClass({
     render: function() { 
         return (
             <Child 
-                onChange={this.changeColor},
+                onChange={this.changeColor}
                 color={this.state.color} />
         )
     }
